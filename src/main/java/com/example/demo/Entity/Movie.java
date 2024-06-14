@@ -31,6 +31,6 @@ public class Movie {
     private String popularidad;
 
     @Column(name = "fecha", nullable = false)
-    private LocalDate fecha;
+    private String fecha;
 
 }
